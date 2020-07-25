@@ -1,0 +1,138 @@
+#main_wrap
+{
+    overflow: hidden;
+}
+
+body
+{
+    min-height: 100%;
+    background-color: hsl(240, 78%, 98%);
+}
+
+h1
+{
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+p
+{
+  color: #838383;
+  font-weight: bold;
+}
+
+hr
+{
+  width: 85%;
+  background-color: #ccc;
+}
+
+h2
+{
+  font-weight: bold;
+}
+
+/* Title section */
+#title
+{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.title-btns
+{
+  display: inline-block;
+  margin: 30px 50px;
+}
+
+
+/* Cards Section */
+#cards
+{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.pricing-column
+{
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 5%;
+}
+
+/* Design Section */
+.top-left-design
+{
+  position: absolute;
+  right: 0;
+}
+
+.bottom-design
+{
+  position: absolute;
+  left: 0;
+}
+
+.pricing-column2
+{
+  background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%) );
+  color: white;
+}
+
+.custom-btn2
+{
+  background-color: white;
+  border-color: white;
+  color: hsl(237, 63%, 64%);
+  font-weight: bold;
+}
+
+.custom-btn2:hover
+{
+  background-color: #ebecf1;
+  color: hsl(237, 63%, 64%);
+  font-weight: bold;
+}
+
+.pricing-column
+{
+  background-color: white;
+  border-color: white;
+}
+
+.custom-btn
+{
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%) );
+    color: white;
+    font-weight: bold;
+}
+
+.custom-btn:hover
+{
+  background-color: #ccc;
+  border-color: #ccc;
+  color: white;
+}
+
+.para-2
+{
+  color: white;
+}
+
+.custom-switch
+{
+  color: hsl(237, 63%, 64%);
+  padding-top: 30px;
+}
+
+.middle-card
+{
+  height: 35rem;
+  padding-top: 4.5rem;
+  border-radius: 5%;
+}
+
+.card-alter
+{
+  border-radius: 5%;
+}
